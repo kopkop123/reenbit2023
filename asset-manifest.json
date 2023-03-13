@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reenbit2023/static/css/main.fc8f7250.css",
+    "main.js": "/reenbit2023/static/js/main.62c91ef0.js",
+    "static/media/Logo.png": "/reenbit2023/static/media/Logo.7249c132022b75101791.png",
+    "index.html": "/reenbit2023/index.html",
+    "main.fc8f7250.css.map": "/reenbit2023/static/css/main.fc8f7250.css.map",
+    "main.62c91ef0.js.map": "/reenbit2023/static/js/main.62c91ef0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc8f7250.css",
+    "static/js/main.62c91ef0.js"
+  ]
+}
