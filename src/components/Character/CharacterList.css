@@ -1,0 +1,54 @@
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    grid-gap: 24px 20px;
+    margin-top: 50px;
+}
+
+.character-list__card {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .2), 0 3px 4px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .14);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-list__card:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .4), 0 3px 4px rgba(0, 0, 0, .15), 0 2px 4px rgba(0, 0, 0, .18);
+}
+
+.character-list__card-info {
+    padding: 12px 16px;
+    flex: 1;
+}
+
+.character-list__name {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .15px;
+    margin: 0;
+}
+
+.character-list__species {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .25px;
+    color: rgba(0, 0, 0, .6);
+    margin-top: 8px;
+}
+
+.character-list__empty {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    .character-list {
+        grid-template-columns: minmax(240px, 312px);
+        justify-content: center;
+    }
+}
